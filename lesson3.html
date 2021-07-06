@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title> Lesson 2 - Basic CSS</title>
+			<link href="style.css" rel="stylesheet">
+				<style>
+                    body {
+                        padding-bottom: 300px; 
+                    }
+					div#bgsample {
+						
+						background-color: #F5DEB3;
+						background-image: url(images/film.jpg);
+						background-repeat: no-repeat;
+						background-position: 0 0;
+						background-attachment: scroll;
+						background-size: 100% 100%;
+						
+					}
+						div.bordersample
+						 {
+						}
+
+					div p.dotted {
+						
+						border: 4px dotted wheat;
+						border-radius: 2px;
+
+						
+					}
+
+					div p.dashed {
+						border-style: dashed;
+						border-width: 2px;
+						border-color: red;
+						border-radius: 2px;
+					}
+
+					div p.solid {
+						border-style: solid;
+						border-width: 3px;
+						border-color: blue;
+						border-radius: 5px;
+					}
+
+					div p.double {
+						border-style: double;
+						border-width: 5px;
+						border-color: orange;
+						border-radius: 2px;
+					}
+					div p.mixed {
+						
+						border-width: 5px;
+						border-color: pink;
+						border-radius: 2px;
+						border-top-style: solid;
+						border-bottom-style: dashed;
+						border-left-style: dotted;
+						border-right-style: double;
+					}
+					div p.outline {
+						border-style: solid;
+						border-width: 1px;
+						border-color: black;
+						border-radius: 2px;
+						outline-style: solid;
+						outline-color: green;
+						outline-width: 10px;
+					}
+
+					/*
+						border-style: groove
+						border-style: ridge
+						etc
+					*/
+					
+				</style>
+			
+	</head>
+	<body>
+		<!-- Background -->
+		<div id="bgsample">
+		<h1>Background Example</h1>
+		<h3>Of course I already know basic HTML</h3>
+		<p>This is a good paragraph in my CSS lesson to lighten my html web page.</p>
+
+		<!-- Border -->
+		<div>
+		<div class="bordersample">
+			<h1>Border Example</h1>
+			<p class="dotted">Dotted</p>
+			<p class="dashed">Dashed</p>
+			<p class="solid">Solid</p>
+			<p class="double">Double</p>
+			<p class="mixed">Mixed</p>
+			<hr>
+			<p class="outline">Outline</p>
+
+		</div>
+
+        <!-- Margin / Padding -->
+		<div>
+            <div class="bordersample">
+                <h1>Margin</h1>
+                
+                <p class="margin">I'm studying margin here</p>
+    
+            </div>
+
+            <!-- Border -->
+		<div>
+            <div class="bordersample">
+                <h1>Border Example</h1>
+                <p class="dotted">Dotted</p>
+                <p class="dashed">Dashed</p>
+                <p class="solid">Solid</p>
+                <p class="double">Double</p>
+                <p class="mixed">Mixed</p>
+                <hr>
+                <p class="outline">Outline</p>
+    
+            </div>
+		
+		
+	</body>
+</html>
